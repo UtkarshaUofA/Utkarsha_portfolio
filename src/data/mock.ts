@@ -13,14 +13,14 @@ export const skills: Skill[] = [
   { id: 'scikit-learn', name: 'Scikit-learn', icon: Zap },
   { id: 'jupyter-notebooks', name: 'Jupyter Notebooks', icon: Edit3 },
   { id: 'git', name: 'Git', icon: GitBranch },
-  { id: 'problem-solving', name: 'Problem Solving', icon: Search },
-  { id: 'communication', name: 'Communication', icon: Users },
   { id: 'data-analysis', name: 'Data Analysis', icon: BarChartBig },
   { id: 'databricks', name: 'Databricks', icon: Database },
   { id: 'excel', name: 'Excel', icon: FileSpreadsheet },
-  { id: 'jira', name: 'JIRA', icon: ListChecks },
   { id: 'predictive-modeling', name: 'Predictive Modeling', icon: Brain },
   { id: 'tableau', name: 'Tableau', icon: Presentation },
+  { id: 'problem-solving', name: 'Problem Solving', icon: Search },
+  { id: 'communication', name: 'Communication', icon: Users },
+  { id: 'jira', name: 'JIRA', icon: ListChecks },
 ];
 
 export const projects: Project[] = [
@@ -130,4 +130,3 @@ export const blogPosts: BlogPost[] = [
     readingTime: '5 min read'
   },
 ];
-
