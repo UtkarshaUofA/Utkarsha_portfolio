@@ -60,6 +60,18 @@ export const projects: Project[] = [
     tags: ['Next.js', 'Tailwind CSS', 'Portfolio', 'Data Science'],
     date: 'Jun 2024 - Present'
   },
+  {
+    id: '4',
+    title: 'Descriptive Analysis of Grade Outcomes Report',
+    description: 'This study explores grade outcomes for students at a level one research institution before, during, and after a public health emergency.',
+    longDescription: 'This project involved a descriptive analysis of student grade outcomes at a major research university, examining trends before, during, and after a significant public health emergency. The study aimed to identify patterns and provide insights into the pandemic\'s impact on academic performance. Techniques included data cleaning, statistical analysis, and visualization of grade distributions and trends over time.',
+    imageUrl: '/timeseries.png',
+    imageHint: 'grade analysis chart',
+    liveDemoUrl: 'https://info-523-exercises.github.io/project-final-The-Null-Wranglers/',
+    repoUrl: 'https://github.com/INFO-523-Exercises/project-final-The-Null-Wranglers',
+    tags: ['Data Analysis', 'Statistical Analysis', 'Education', 'Research'],
+    date: 'Oct 2023'
+  },
 ];
 
 export const experiences: Experience[] = [
@@ -103,7 +115,7 @@ export const blogPosts: BlogPost[] = [
     date: 'July 15, 2024',
     imageUrl: 'https://placehold.co/600x400.png',
     imageHint: 'data charts dashboard',
-    url: '#', 
+    url: '#',
     author: 'Utkarsha Patil',
     readingTime: '8 min read'
   },
