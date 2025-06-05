@@ -47,6 +47,17 @@ export const projects: Project[] = [
     tags: ['Data Analysis', 'Correlation Analysis', 'Social Science', 'Python', 'Pandas'],
     date: 'Dec 2024'
   },
+  {
+    id: '6',
+    title: 'Pharmacy Store Data Management System',
+    description: 'This study analyzes criminal history and the correlation between crime and unemployment in Tucson to understand and address community issues.',
+    longDescription: 'This study analyzes criminal history and the correlation between crime and unemployment in Tucson to understand and address community issues.',
+    imageUrl: '/pharmacy.png',
+    imageHint: 'pharmacy system',
+    repoUrl: 'https://github.com/UtkarshaUofA/Analyzing-Crime-Trends-and-the-Correlation-with-the-Unemployment-Rate-in-Tucson',
+    tags: ['Data Management', 'System Design', 'Database', 'Software Development'],
+    date: 'May 2025'
+  }
 ];
 
 export const experiences: Experience[] = [
