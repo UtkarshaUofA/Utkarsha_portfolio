@@ -20,6 +20,7 @@ export const skills: Skill[] = [
   { id: 'excel', name: 'Excel', icon: FileSpreadsheet },
   { id: 'jira', name: 'JIRA', icon: ListChecks },
   { id: 'predictive-modeling', name: 'Predictive Modeling', icon: Brain },
+  { id: 'tableau', name: 'Tableau', icon: Presentation },
 ];
 
 export const projects: Project[] = [
