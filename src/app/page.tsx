@@ -52,7 +52,7 @@ export default function AboutMePage() {
                 <div key={skill.id} className="flex flex-col items-center text-center p-4 bg-card hover:shadow-md transition-shadow rounded-lg border">
                   {skill.icon && <skill.icon className="h-10 w-10 mb-3 text-primary" />}
                   <p className="font-semibold text-sm mb-1">{skill.name}</p>
-                  {skill.level && <Badge variant="secondary" className="text-xs">{skill.level}</Badge>}
+                  {/* Skill level Badge removed */}
                 </div>
               ))}
             </div>

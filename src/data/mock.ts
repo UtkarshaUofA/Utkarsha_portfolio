@@ -1,22 +1,22 @@
+
 import type { Project, Experience, BlogPost, Skill } from '@/lib/types';
 import { Code, Database, GitBranch, Zap, BarChartBig, TrendingUp, Search, Presentation, Edit3, Users, Cloud } from 'lucide-react';
 
 export const skills: Skill[] = [
-  { id: 'python', name: 'Python', icon: Code, level: 'Advanced' },
-  { id: 'sql', name: 'SQL', icon: Database, level: 'Advanced' },
-  { id: 'machine-learning', name: 'Machine Learning', icon: Zap, level: 'Intermediate' },
-  { id: 'data-visualization', name: 'Data Visualization', icon: BarChartBig, level: 'Intermediate' },
-  { id: 'statistics', name: 'Statistics', icon: TrendingUp, level: 'Advanced' },
-  { id: 'pandas', name: 'Pandas', icon: Code, level: 'Advanced' },
-  { id: 'numpy', name: 'NumPy', icon: Code, level: 'Advanced' },
-  { id: 'scikit-learn', name: 'Scikit-learn', icon: Zap, level: 'Intermediate' },
-  { id: 'tensorflow', name: 'TensorFlow', icon: Zap, level: 'Beginner' },
-  { id: 'jupyter-notebooks', name: 'Jupyter Notebooks', icon: Edit3, level: 'Advanced' },
-  { id: 'git', name: 'Git', icon: GitBranch, level: 'Advanced' },
-  { id: 'problem-solving', name: 'Problem Solving', icon: Search, level: 'Expert' },
-  { id: 'communication', name: 'Communication', icon: Users, level: 'Intermediate' },
-  { id: 'cloud-aws', name: 'AWS', icon: Cloud, level: 'Beginner' },
-  { id: 'data-analysis', name: 'Data Analysis', icon: BarChartBig, level: 'Advanced' },
+  { id: 'python', name: 'Python', icon: Code },
+  { id: 'sql', name: 'SQL', icon: Database },
+  { id: 'machine-learning', name: 'Machine Learning', icon: Zap },
+  { id: 'data-visualization', name: 'Data Visualization', icon: BarChartBig },
+  { id: 'statistics', name: 'Statistics', icon: TrendingUp },
+  { id: 'pandas', name: 'Pandas', icon: Code },
+  { id: 'numpy', name: 'NumPy', icon: Code },
+  { id: 'scikit-learn', name: 'Scikit-learn', icon: Zap },
+  { id: 'jupyter-notebooks', name: 'Jupyter Notebooks', icon: Edit3 },
+  { id: 'git', name: 'Git', icon: GitBranch },
+  { id: 'problem-solving', name: 'Problem Solving', icon: Search },
+  { id: 'communication', name: 'Communication', icon: Users },
+  { id: 'cloud-aws', name: 'AWS', icon: Cloud },
+  { id: 'data-analysis', name: 'Data Analysis', icon: BarChartBig },
 ];
 
 export const projects: Project[] = [
