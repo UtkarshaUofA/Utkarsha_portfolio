@@ -1,7 +1,7 @@
 "use client";
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { CodeXml, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react'; // Removed CodeXml import
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
@@ -36,7 +36,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2 font-headline text-lg font-bold text-primary">
-          <CodeXml className="h-6 w-6" />
+          {/* <CodeXml className="h-6 w-6" /> Removed CodeXml icon */}
           Portfolio Pro
         </Link>
         
@@ -57,7 +57,7 @@ export function Header() {
             <SheetContent side="right" className="w-full max-w-xs bg-background p-6">
               <div className="flex flex-col space-y-6">
                 <Link href="/" className="flex items-center gap-2 font-headline text-lg font-bold text-primary" onClick={() => setIsMobileMenuOpen(false)}>
-                  <CodeXml className="h-6 w-6" />
+                  {/* <CodeXml className="h-6 w-6" /> Removed CodeXml icon */}
                   Portfolio Pro
                 </Link>
                 {navItems.map((item) => (
