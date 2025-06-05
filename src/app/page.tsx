@@ -14,7 +14,7 @@ export default function AboutMePage() {
       <div className="grid md:grid-cols-3 gap-8 md:gap-12 items-center">
         <div className="md:col-span-1 flex justify-center">
           <Image
-            src="/Profile_photo.jpeg"
+            src="/Profile_picture.jpeg"
             alt="Profile Picture"
             width={300}
             height={300}
