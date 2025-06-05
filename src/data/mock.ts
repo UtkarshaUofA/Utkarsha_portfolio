@@ -25,42 +25,6 @@ export const skills: Skill[] = [
 
 export const projects: Project[] = [
   {
-    id: '1',
-    title: 'Customer Churn Prediction',
-    description: 'Developed a model to predict customer churn for a telecom company, achieving 85% accuracy.',
-    longDescription: 'Led a project to predict customer churn using historical customer data. Performed exploratory data analysis, feature engineering, and model selection (Logistic Regression, Random Forest, Gradient Boosting). The final model achieved 85% accuracy, providing actionable insights for retention strategies. Utilized Python, Pandas, Scikit-learn, and Matplotlib.',
-    imageUrl: 'https://placehold.co/600x400.png',
-    imageHint: 'data graph analytics',
-    liveDemoUrl: '#',
-    repoUrl: '#',
-    tags: ['Python', 'Machine Learning', 'Scikit-learn', 'Pandas', 'Data Analysis'],
-    date: 'Mar 2024 - May 2024'
-  },
-  {
-    id: '2',
-    title: 'Sales Forecasting Tool',
-    description: 'Built a time series forecasting model to predict monthly sales for a retail client.',
-    longDescription: 'Developed a sales forecasting tool using SARIMA models to predict monthly sales. Cleaned and preprocessed historical sales data, performed time series decomposition, and evaluated model performance using RMSE and MAE. The tool helped the client optimize inventory management. Implemented in Python with Statsmodels and Plotly for visualization.',
-    imageUrl: 'https://placehold.co/600x400.png',
-    imageHint: 'sales chart graph',
-    liveDemoUrl: '#',
-    repoUrl: '#',
-    tags: ['Python', 'Time Series', 'Statsmodels', 'Pandas', 'Forecasting'],
-    date: 'Jan 2024 - Feb 2024'
-  },
-  {
-    id: '3',
-    title: 'Personal Portfolio Website',
-    description: 'This very portfolio website, built with Next.js and Tailwind CSS, showcasing my data science journey.',
-    longDescription: 'Designed and developed this personal portfolio website to showcase my skills, projects, and experience in Data Science. Built with Next.js for server-side rendering and static site generation, ensuring optimal performance and SEO. Styled with Tailwind CSS for a clean and modern look. Includes sections for projects, experience, and a blog.',
-    imageUrl: 'https://placehold.co/600x400.png',
-    imageHint: 'developer portfolio',
-    liveDemoUrl: '/',
-    repoUrl: '#',
-    tags: ['Next.js', 'Tailwind CSS', 'Portfolio', 'Data Science'],
-    date: 'Jun 2024 - Present'
-  },
-  {
     id: '4',
     title: 'Descriptive Analysis of Grade Outcomes Report',
     description: 'This study explores grade outcomes for students at a level one research institution before, during, and after a public health emergency.',
