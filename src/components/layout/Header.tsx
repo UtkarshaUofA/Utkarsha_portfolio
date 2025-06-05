@@ -11,7 +11,6 @@ const navItems = [
   { href: '/', label: 'About Me' },
   { href: '/projects', label: 'Projects' },
   { href: '/experience', label: 'Experience' },
-  { href: '/resume-feedback', label: 'Resume AI' },
   { href: '/blog', label: 'Blog' },
   { href: '/contact', label: 'Contact' },
 ];
