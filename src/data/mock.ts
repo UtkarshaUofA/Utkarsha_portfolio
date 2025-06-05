@@ -81,7 +81,7 @@ export const projects: Project[] = [
     imageHint: 'crime analysis tucson',
     repoUrl: 'https://github.com/UtkarshaUofA/Analyzing-Crime-Trends-and-the-Correlation-with-the-Unemployment-Rate-in-Tucson',
     tags: ['Data Analysis', 'Correlation Analysis', 'Social Science', 'Python', 'Pandas'],
-    date: 'Nov 2023'
+    date: 'Dec 2024'
   },
 ];
 
