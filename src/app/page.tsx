@@ -15,7 +15,7 @@ export default function AboutMePage() {
         <div className="md:col-span-1 flex justify-center">
           <Image
             src="/new.jpeg"
-            alt="Profile Picture of Your Name Here"
+            alt="Profile Picture of Utkarsha Patil"
             width={300}
             height={300}
             className="rounded-full shadow-lg object-cover aspect-square"
@@ -23,7 +23,7 @@ export default function AboutMePage() {
           />
         </div>
         <div className="md:col-span-2 text-center md:text-left">
-          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-2">Hi, I'm Your Name Here</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-2">Hi, I'm Utkarsha Patil</h1>
           <p className="text-xl text-primary font-semibold mb-4">Aspiring Software Engineer</p>
           <p className="text-lg text-muted-foreground mb-6">
             I am a recent graduate (May 2025) from the University of Arizona with a passion for creating innovative and user-friendly software solutions. I'm eager to apply my skills in a challenging role and contribute to impactful projects.

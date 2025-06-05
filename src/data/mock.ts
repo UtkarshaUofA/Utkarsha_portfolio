@@ -97,7 +97,7 @@ export const blogPosts: BlogPost[] = [
     imageUrl: 'https://placehold.co/600x400.png',
     imageHint: 'code syntax',
     url: '#', // Replace with actual URL if external
-    author: 'Your Name Here',
+    author: 'Utkarsha Patil',
     readingTime: '7 min read'
   },
   {
@@ -108,7 +108,7 @@ export const blogPosts: BlogPost[] = [
     imageUrl: 'https://placehold.co/600x400.png',
     imageHint: 'artificial intelligence',
     url: '#',
-    author: 'Your Name Here',
+    author: 'Utkarsha Patil',
     readingTime: '5 min read'
   },
   {
@@ -119,7 +119,7 @@ export const blogPosts: BlogPost[] = [
     imageUrl: 'https://placehold.co/600x400.png',
     imageHint: 'graduation cap',
     url: '#',
-    author: 'Your Name Here',
+    author: 'Utkarsha Patil',
     readingTime: '6 min read'
   },
 ];
