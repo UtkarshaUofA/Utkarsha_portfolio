@@ -1,6 +1,6 @@
 
 import type { Project, Experience, BlogPost, Skill } from '@/lib/types';
-import { Code, Database, GitBranch, Zap, BarChartBig, TrendingUp, Search, Presentation, Edit3, Users, Cloud } from 'lucide-react';
+import { Code, Database, GitBranch, Zap, BarChartBig, TrendingUp, Search, Presentation, Edit3, Users, FileSpreadsheet, ListChecks, Brain } from 'lucide-react';
 
 export const skills: Skill[] = [
   { id: 'python', name: 'Python', icon: Code },
@@ -15,8 +15,11 @@ export const skills: Skill[] = [
   { id: 'git', name: 'Git', icon: GitBranch },
   { id: 'problem-solving', name: 'Problem Solving', icon: Search },
   { id: 'communication', name: 'Communication', icon: Users },
-  { id: 'cloud-aws', name: 'AWS', icon: Cloud },
   { id: 'data-analysis', name: 'Data Analysis', icon: BarChartBig },
+  { id: 'databricks', name: 'Databricks', icon: Database },
+  { id: 'excel', name: 'Excel', icon: FileSpreadsheet },
+  { id: 'jira', name: 'JIRA', icon: ListChecks },
+  { id: 'predictive-modeling', name: 'Predictive Modeling', icon: Brain },
 ];
 
 export const projects: Project[] = [
@@ -126,3 +129,4 @@ export const blogPosts: BlogPost[] = [
     readingTime: '5 min read'
   },
 ];
+
