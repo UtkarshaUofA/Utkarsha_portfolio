@@ -18,7 +18,7 @@ export default function AboutMePage() {
             alt="Profile Picture"
             width={300}
             height={300}
-            className="rounded-full shadow-lg object-cover aspect-square transform scale-110"
+            className="rounded-full shadow-lg object-cover aspect-square transform scale-125"
             data-ai-hint="profile photo"
           />
         </div>
