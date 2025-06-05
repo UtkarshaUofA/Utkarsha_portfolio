@@ -24,9 +24,9 @@ export default function AboutMePage() {
         </div>
         <div className="md:col-span-2 text-center md:text-left">
           <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-2">Hi, I'm Utkarsha Patil</h1>
-          <p className="text-xl text-primary font-semibold mb-4">Aspiring Software Engineer</p>
+          <p className="text-xl text-primary font-semibold mb-4">Data Science Graduate | Aspiring Data Scientist</p>
           <p className="text-lg text-muted-foreground mb-6">
-            I am a recent graduate (May 2025) from the University of Arizona with a passion for creating innovative and user-friendly software solutions. I'm eager to apply my skills in a challenging role and contribute to impactful projects.
+            I am a recent Data Science graduate (May 2025) from the University of Arizona with a passion for uncovering insights from data and building intelligent solutions. I'm eager to apply my analytical skills and machine learning knowledge in a challenging role to contribute to data-driven decision-making and impactful projects.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
