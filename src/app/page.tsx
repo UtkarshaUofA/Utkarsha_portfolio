@@ -14,12 +14,12 @@ export default function AboutMePage() {
       <div className="grid md:grid-cols-3 gap-8 md:gap-12 items-center">
         <div className="md:col-span-1 flex justify-center">
           <Image
-            src="https://placehold.co/400x400.png"
-            alt="Your Name Here"
+            src="/profile.png"
+            alt="Profile Picture"
             width={300}
             height={300}
             className="rounded-full shadow-lg object-cover aspect-square"
-            data-ai-hint="professional portrait"
+            data-ai-hint="profile photo"
           />
         </div>
         <div className="md:col-span-2 text-center md:text-left">
