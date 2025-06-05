@@ -72,6 +72,17 @@ export const projects: Project[] = [
     tags: ['Data Analysis', 'Statistical Analysis', 'Education', 'Research'],
     date: 'Oct 2023'
   },
+  {
+    id: '5',
+    title: 'Crime Trends and the Correlation with the Unemployment Rate in Tucson',
+    description: 'This study analyzes criminal history and the correlation between crime and unemployment in Tucson to understand and address community issues.',
+    longDescription: 'This study analyzes criminal history and the correlation between crime and unemployment in Tucson to understand and address community issues. The project involved data collection, cleaning, statistical analysis, and visualization to identify patterns and potential relationships between crime rates and unemployment figures in the Tucson area. Python, Pandas, and Matplotlib/Seaborn were key tools used in this analysis.',
+    imageUrl: '/tucson.png',
+    imageHint: 'crime analysis tucson',
+    repoUrl: 'https://github.com/UtkarshaUofA/Analyzing-Crime-Trends-and-the-Correlation-with-the-Unemployment-Rate-in-Tucson',
+    tags: ['Data Analysis', 'Correlation Analysis', 'Social Science', 'Python', 'Pandas'],
+    date: 'Nov 2023'
+  },
 ];
 
 export const experiences: Experience[] = [
