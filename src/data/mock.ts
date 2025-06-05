@@ -56,7 +56,7 @@ export const projects: Project[] = [
     imageHint: 'pharmacy system',
     repoUrl: 'https://github.com/UtkarshaUofA/Analyzing-Crime-Trends-and-the-Correlation-with-the-Unemployment-Rate-in-Tucson',
     tags: ['Data Management', 'System Design', 'Database', 'Software Development'],
-    date: 'May 2025'
+    date: 'May 2024'
   }
 ];
 
