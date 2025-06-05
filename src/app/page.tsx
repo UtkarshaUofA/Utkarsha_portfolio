@@ -35,7 +35,7 @@ export default function AboutMePage() {
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg">
-              <Link href="/resume.pdf" target="_blank" download> {/* Replace with actual resume link */}
+              <Link href="/Utkarsha Patil Data Science.pdf" target="_blank" download>
                 Download Resume <Download className="ml-2 h-5 w-5" />
               </Link>
             </Button>
