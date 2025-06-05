@@ -15,10 +15,10 @@ export default function AboutMePage() {
         <div className="md:col-span-1 flex justify-center">
           <Image
             src="/Profile_picture.jpeg"
-            alt="Profile Picture"
+            alt="Profile Picture of Your Name Here"
             width={300}
             height={300}
-            className="rounded-full shadow-lg object-cover aspect-square transform scale-125 -translate-y-8"
+            className="rounded-full shadow-lg object-cover aspect-square transform scale-150 -translate-y-8"
             data-ai-hint="profile photo"
           />
         </div>
