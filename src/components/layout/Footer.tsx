@@ -1,4 +1,4 @@
-import { Github, Linkedin } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 import Link from 'next/link';
 
 export function Footer() {
@@ -15,6 +15,9 @@ export function Footer() {
           </Link>
           <Link href="https://linkedin.com/in/utkarsha-a-patil" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-muted-foreground hover:text-primary transition-colors">
             <Linkedin className="h-5 w-5" />
+          </Link>
+          <Link href="mailto:utkarsha.ajay.patil@gmail.com" aria-label="Email" className="text-muted-foreground hover:text-primary transition-colors">
+            <Mail className="h-5 w-5" />
           </Link>
         </div>
       </div>
