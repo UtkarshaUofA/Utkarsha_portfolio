@@ -55,7 +55,7 @@ export default function AboutMePage() {
         </section>
 
         <section className="md:col-span-2">
-          <PageTitle title="My Skills" icon={<Brain size={36} strokeWidth={1.5}/>} className="mb-6 md:mb-8" />
+          <PageTitle title="Skills" icon={<Brain size={36} strokeWidth={1.5}/>} className="mb-6 md:mb-8" />
           <Card className="shadow-lg h-full">
             <CardContent className="px-4 pt-4 pb-2">
               <div className="grid grid-cols-2 gap-3">
