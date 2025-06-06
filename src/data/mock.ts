@@ -73,23 +73,6 @@ export const projects: Project[] = [
 
 export const experiences: Experience[] = [
   {
-    id: '1',
-    companyName: 'Capgemini',
-    jobTitle: 'Associate Consultant',
-    startDate: 'Nov 2019',
-    endDate: 'Jul 2023',
-    logoUrl: 'https://placehold.co/100x100.png',
-    logoHint: 'capgemini logo',
-    summary: [
-      'Developed and optimized complex SQL queries to extract, clean, and analyze large datasets, improving accuracy in reporting and streamlining data retrieval processes.',
-      'Streamlined weekly performance analysis by developing a scalable Performance Drivers dashboard, reducing analysis time by 45% and enhancing leadership reporting with clear KPI insights for effective root cause analysis.',
-      'Created and maintained 2 Tableau dashboards for feature tracking and deep-dive analysis, cutting weekly analytics work by 5 hours and improving data-driven decision-making for cross-functional teams.',
-      'Conducted 3+ A/B tests for email campaigns, delivering data-driven insights to optimize user engagement strategies.',
-      'Performed ad hoc and deep-dive analytics, resulting in a 7% improvement in key product KPIs through actionable insights.',
-      'Partnered with business and finance teams to align data reporting, contributing to a standardized analytics framework.'
-    ],
-  },
-  {
     id: '3',
     companyName: 'University of Arizona Health Sciences',
     jobTitle: 'Student AI Developer',
@@ -118,6 +101,23 @@ export const experiences: Experience[] = [
       'Automated six customer email campaigns tailored to diverse subscription plans, reducing manual workload by 60% and improving segmentation accuracy.',
       'Managed data ingestion and preprocessing for 40 U.S. counties and urban/rural areas in India using Python and Excel, ensuring data accuracy for visualization through 2 Tableau dashboards.',
       'Collaborated with three cross-functional teams during weekly sprint planning, execution, and updates to report progress and address challenges, contributing to a 90% sprint completion rate and reducing project delays by 20%.'
+    ],
+  },
+  {
+    id: '1',
+    companyName: 'Capgemini',
+    jobTitle: 'Associate Consultant',
+    startDate: 'Nov 2019',
+    endDate: 'Jul 2023',
+    logoUrl: 'https://placehold.co/100x100.png',
+    logoHint: 'capgemini logo',
+    summary: [
+      'Developed and optimized complex SQL queries to extract, clean, and analyze large datasets, improving accuracy in reporting and streamlining data retrieval processes.',
+      'Streamlined weekly performance analysis by developing a scalable Performance Drivers dashboard, reducing analysis time by 45% and enhancing leadership reporting with clear KPI insights for effective root cause analysis.',
+      'Created and maintained 2 Tableau dashboards for feature tracking and deep-dive analysis, cutting weekly analytics work by 5 hours and improving data-driven decision-making for cross-functional teams.',
+      'Conducted 3+ A/B tests for email campaigns, delivering data-driven insights to optimize user engagement strategies.',
+      'Performed ad hoc and deep-dive analytics, resulting in a 7% improvement in key product KPIs through actionable insights.',
+      'Partnered with business and finance teams to align data reporting, contributing to a standardized analytics framework.'
     ],
   },
 ];
