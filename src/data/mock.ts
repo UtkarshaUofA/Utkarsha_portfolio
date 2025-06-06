@@ -147,9 +147,9 @@ export const education: Education[] = [
     id: '2',
     institution: 'Savitribai Phule Pune University',
     degree: 'Bachelor of Engineering - BE, Computer Science',
-    graduationDate: '2019', // Updated from May 2019 as per input
-    logoUrl: 'https://placehold.co/60x60.png',
-    logoHint: 'university logo',
+    graduationDate: '2019',
+    logoUrl: '/Puneuni.jpg',
+    logoHint: 'savitribai phule pune university logo',
     details: [
       'Activities and societies: NSS (National Service Scheme), ISTE (Indian Society for Technical Education)',
       'Worked on YouTube Video Analysis & Recommendation System, implementing sentiment analysis and improving recommendation relevance.',
