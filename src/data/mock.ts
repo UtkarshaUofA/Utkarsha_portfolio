@@ -19,10 +19,10 @@ export const skills: Skill[] = [
   { id: 'databricks', name: 'Databricks', icon: Database },
   { id: 'excel', name: 'Excel', icon: FileSpreadsheet },
   { id: 'tableau', name: 'Tableau', icon: Presentation },
-  { id: 'articulate', name: 'Articulate', icon: Presentation },
-  { id: 'powerpoint', name: 'PowerPoint', icon: Presentation },
   { id: 'problem-solving', name: 'Problem Solving', icon: Search },
   { id: 'jira', name: 'JIRA', icon: ListChecks },
+  { id: 'articulate', name: 'Articulate', icon: Users },
+  { id: 'powerpoint', name: 'PowerPoint', icon: Presentation },
 ];
 
 export const projects: Project[] = [
