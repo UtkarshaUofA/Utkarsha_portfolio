@@ -1,3 +1,4 @@
+
 import type { LucideIcon } from 'lucide-react';
 
 export interface Project {
@@ -22,18 +23,6 @@ export interface Experience {
   summary: string[];
   logoUrl?: string;
   logoHint?: string;
-}
-
-export interface BlogPost {
-  id: string;
-  title: string;
-  excerpt: string;
-  date: string;
-  imageUrl: string;
-  imageHint: string;
-  url: string;
-  author?: string;
-  readingTime?: string;
 }
 
 export interface Skill {

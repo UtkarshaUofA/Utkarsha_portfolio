@@ -1,5 +1,5 @@
 
-import type { Project, Experience, BlogPost, Skill } from '@/lib/types';
+import type { Project, Experience, Skill } from '@/lib/types';
 import { Code, Database, GitBranch, Zap, BarChartBig, TrendingUp, Search, Presentation, Edit3, Users, FileSpreadsheet, ListChecks, Brain } from 'lucide-react';
 
 export const skills: Skill[] = [
@@ -121,40 +121,3 @@ export const experiences: Experience[] = [
     ],
   },
 ];
-
-export const blogPosts: BlogPost[] = [
-  {
-    id: '1',
-    title: 'The Power of Exploratory Data Analysis (EDA)',
-    excerpt: 'A comprehensive guide to EDA techniques and how they form the crucial first step in any data science project.',
-    date: 'July 15, 2024',
-    imageUrl: 'https://placehold.co/600x400.png',
-    imageHint: 'data charts dashboard',
-    url: '#',
-    author: 'Utkarsha Patil',
-    readingTime: '8 min read'
-  },
-  {
-    id: '2',
-    title: 'Understanding Bias and Fairness in Machine Learning',
-    excerpt: 'Exploring the ethical implications of AI and strategies to mitigate bias in machine learning models.',
-    date: 'June 28, 2024',
-    imageUrl: 'https://placehold.co/600x400.png',
-    imageHint: 'algorithm network ethics',
-    url: '#',
-    author: 'Utkarsha Patil',
-    readingTime: '6 min read'
-  },
-  {
-    id: '3',
-    title: 'My Journey into Data Science: From Curiosity to Career',
-    excerpt: 'Reflections on my path into the field of data science, the challenges overcome, and key learnings.',
-    date: 'May 10, 2024',
-    imageUrl: 'https://placehold.co/600x400.png',
-    imageHint: 'graduation cap computer',
-    url: '#',
-    author: 'Utkarsha Patil',
-    readingTime: '5 min read'
-  },
-];
-
