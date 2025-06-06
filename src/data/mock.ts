@@ -8,11 +8,11 @@ export const skills: Skill[] = [
   { id: 'machine-learning', name: 'Machine Learning', icon: Zap },
   { id: 'data-visualization', name: 'Data Visualization', icon: BarChartBig },
   { id: 'statistics', name: 'Statistics', icon: TrendingUp },
+  { id: 'ab-testing', name: 'A/B Testing', icon: TestTube2 },
+  { id: 'predictive-modeling', name: 'Predictive Modeling', icon: Brain },
   { id: 'pandas', name: 'Pandas', icon: Code },
   { id: 'numpy', name: 'NumPy', icon: Code },
   { id: 'scikit-learn', name: 'Scikit-learn', icon: Zap },
-  { id: 'ab-testing', name: 'A/B Testing', icon: TestTube2 },
-  { id: 'predictive-modeling', name: 'Predictive Modeling', icon: Brain },
   { id: 'jupyter-notebooks', name: 'Jupyter Notebooks', icon: Edit3 },
   { id: 'git', name: 'Git', icon: GitBranch },
   { id: 'data-analysis', name: 'Data Analysis', icon: BarChartBig },
@@ -176,3 +176,4 @@ export const education: Education[] = [
     ],
   },
 ];
+
