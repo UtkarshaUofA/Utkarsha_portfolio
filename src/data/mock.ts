@@ -8,6 +8,7 @@ export const skills: Skill[] = [
   { id: 'machine-learning', name: 'Machine Learning', icon: Zap },
   { id: 'data-visualization', name: 'Data Visualization', icon: BarChartBig },
   { id: 'statistics', name: 'Statistics', icon: TrendingUp },
+  { id: 'data-analysis', name: 'Data Analysis', icon: BarChartBig },
   { id: 'ab-testing', name: 'A/B Testing', icon: TestTube2 },
   { id: 'predictive-modeling', name: 'Predictive Modeling', icon: Brain },
   { id: 'pandas', name: 'Pandas', icon: Code },
@@ -15,10 +16,11 @@ export const skills: Skill[] = [
   { id: 'scikit-learn', name: 'Scikit-learn', icon: Zap },
   { id: 'jupyter-notebooks', name: 'Jupyter Notebooks', icon: Edit3 },
   { id: 'git', name: 'Git', icon: GitBranch },
-  { id: 'data-analysis', name: 'Data Analysis', icon: BarChartBig },
   { id: 'databricks', name: 'Databricks', icon: Database },
   { id: 'excel', name: 'Excel', icon: FileSpreadsheet },
   { id: 'tableau', name: 'Tableau', icon: Presentation },
+  { id: 'articulate', name: 'Articulate', icon: Presentation },
+  { id: 'powerpoint', name: 'PowerPoint', icon: Presentation },
   { id: 'problem-solving', name: 'Problem Solving', icon: Search },
   { id: 'jira', name: 'JIRA', icon: ListChecks },
 ];
@@ -176,4 +178,3 @@ export const education: Education[] = [
     ],
   },
 ];
-
