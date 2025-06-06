@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import type { Education } from '@/lib/types';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { CalendarDays, GraduationCap } from 'lucide-react';
+import { CalendarDays } from 'lucide-react';
 
 interface EducationItemProps {
   education: Education;
@@ -33,10 +33,27 @@ export function EducationItem({ education }: EducationItemProps) {
       </CardHeader>
       {education.details && education.details.length > 0 && (
         <CardContent>
-          <ul className="list-disc list-inside space-y-1 text-muted-foreground text-sm">
-            {education.details.map((detail, index) => (
-              <li key={index}>{detail}</li>
-            ))}
+          <ul className="list-disc list-outside space-y-1 text-muted-foreground text-sm pl-5">
+            {education.details.map((detail, index) => {
+              const isSpecialHeader =
+                detail.startsWith('Activities and societies:') ||
+                detail.startsWith('Coursework:') ||
+                detail.startsWith('Key Highlights:');
+
+              if (isSpecialHeader) {
+                return (
+                  <li key={index} className="font-semibold text-foreground list-none -ml-5 mt-3 mb-1">
+                    {detail}
+                  </li>
+                );
+              } else {
+                return (
+                  <li key={index}>
+                    {detail}
+                  </li>
+                );
+              }
+            })}
           </ul>
         </CardContent>
       )}
