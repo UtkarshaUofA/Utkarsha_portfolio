@@ -1,5 +1,5 @@
 
-import type { Project, Experience, Skill, Education } from '@/lib/types';
+import type { Project, Experience, Skill, Education, BlogPost } from '@/lib/types';
 import { Code, Database, GitBranch, Zap, BarChartBig, TrendingUp, Search, Presentation, Edit3, Users, FileSpreadsheet, ListChecks, Brain, GraduationCap, TestTube2 } from 'lucide-react';
 
 export const skills: Skill[] = [
@@ -176,5 +176,41 @@ export const education: Education[] = [
       'Led technical event organization for the Computer Science department.',
       'Volunteered for NSS, contributing to community service initiatives.'
     ],
+  },
+];
+
+export const blogPosts: BlogPost[] = [
+  {
+    id: '1',
+    title: 'Getting Started with Next.js for Portfolio Pro',
+    excerpt: 'A deep dive into the foundational setup of Next.js for our Portfolio Pro application, covering routing, components, and styling.',
+    imageUrl: 'https://placehold.co/600x400.png',
+    imageHint: 'nextjs code',
+    url: '/blog/getting-started-nextjs',
+    date: 'July 20, 2024',
+    author: 'AI Assistant',
+    readingTime: '5 min read',
+  },
+  {
+    id: '2',
+    title: 'The Power of Tailwind CSS and ShadCN UI',
+    excerpt: 'Exploring how Tailwind CSS utility classes and ShadCN UI components accelerate UI development with consistency and style.',
+    imageUrl: 'https://placehold.co/600x400.png',
+    imageHint: 'tailwind shadcn logos',
+    url: '/blog/tailwind-shadcn-power',
+    date: 'July 22, 2024',
+    author: 'AI Assistant',
+    readingTime: '7 min read',
+  },
+  {
+    id: '3',
+    title: 'Integrating Genkit for AI-Powered Features',
+    excerpt: 'A walkthrough of setting up Genkit to add intelligent features like resume feedback to your web applications.',
+    imageUrl: 'https://placehold.co/600x400.png',
+    imageHint: 'ai brain circuit',
+    url: '/blog/genkit-ai-integration',
+    date: 'July 25, 2024',
+    author: 'AI Assistant',
+    readingTime: '8 min read',
   },
 ];

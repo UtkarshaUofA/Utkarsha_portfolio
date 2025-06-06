@@ -41,3 +41,15 @@ export interface Education {
   logoHint?: string;
   details?: string[];
 }
+
+export interface BlogPost {
+  id: string;
+  title: string;
+  excerpt: string;
+  imageUrl: string;
+  imageHint: string;
+  url: string;
+  date: string;
+  author?: string;
+  readingTime?: string;
+}
