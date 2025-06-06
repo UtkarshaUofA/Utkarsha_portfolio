@@ -131,19 +131,32 @@ export const education: Education[] = [
     logoUrl: '/uarizona_logo.jpg',
     logoHint: 'university arizona logo',
     details: [
-      'Relevant Coursework: Machine Learning, Statistical Learning, Data Mining, Big Data Analytics, Deep Learning.',
-      'GPA: 3.9/4.0',
+      'Activities and societies: ASTEC, WISE, Arizona Student Unions',
+      'Coursework: Data Mining, Data Visualization, Machine Learning, Applied Natural Language Processing (NLP), Computational Social Science, Database Management, SQL/NoSQL Databases for Data and Information Sciences, Foundations of Data Science, Data Ethics.',
+      'Key Highlights:',
+      'AI Application Developer, ASTEC – Developed AI-driven solutions for healthcare applications, patient simulation, and improved patient form building.',
+      'Worked with real-world datasets to identify trends, patterns, and outliers.',
+      'Interned at The Force for Health Network, worked on healthcare applications.',
+      'Collaborated on projects involving predictive modeling and text processing techniques.',
+      'Gained hands-on experience with Python, SQL, and data analytics tools like Tableau.',
+      'WISE Mentorship Program participant.',
+      'Skills: MySQL, Python (Programming Language), and more.'
     ],
   },
   {
     id: '2',
     institution: 'Savitribai Phule Pune University',
-    degree: 'Bachelor of Engineering in Computer Engineering',
-    graduationDate: 'May 2019',
+    degree: 'Bachelor of Engineering - BE, Computer Science',
+    graduationDate: '2019', // Updated from May 2019 as per input
     logoUrl: 'https://placehold.co/60x60.png',
     logoHint: 'university logo',
     details: [
-      'Relevant Coursework: Data Structures & Algorithms, Database Management Systems, Operating Systems, Computer Networks.',
+      'Activities and societies: NSS (National Service Scheme), ISTE (Indian Society for Technical Education)',
+      'Worked on YouTube Video Analysis & Recommendation System, implementing sentiment analysis and improving recommendation relevance.',
+      'Published a research paper on the project in IJRAR.',
+      'Led technical event organization for the Computer Science department.',
+      'Volunteered for NSS, contributing to community service initiatives.',
+      'Coursework: Data Structures & Algorithms, Database Management Systems, Data Mining, Data Analytics',
     ],
   },
 ];
