@@ -73,36 +73,6 @@ export const projects: Project[] = [
 
 export const experiences: Experience[] = [
   {
-    id: '1',
-    companyName: 'Data Insights Corp.',
-    jobTitle: 'Data Science Intern',
-    startDate: 'May 2024',
-    endDate: 'Aug 2024',
-    logoUrl: 'https://placehold.co/100x100.png',
-    logoHint: 'data analytics company',
-    summary: [
-      'Developed and deployed machine learning models to predict customer behavior, improving marketing campaign targeting by 20%.',
-      'Collaborated with a cross-functional team of data scientists and engineers in an agile environment, focusing on data-driven product enhancements.',
-      'Built and maintained data pipelines using Python and SQL for ETL processes, preparing large datasets for analysis and model training.',
-      'Validated model performance and ensured data quality through rigorous testing, evaluation metrics, and A/B testing.',
-    ],
-  },
-  {
-    id: '2',
-    companyName: 'University of Arizona - Data Science Institute',
-    jobTitle: 'Research Assistant & TA',
-    startDate: 'Aug 2023',
-    endDate: 'May 2024',
-    logoUrl: 'https://placehold.co/100x100.png',
-    logoHint: 'university building',
-    summary: [
-      'Assisted in teaching Data Mining and Statistical Learning courses (Python, R) to over 80 undergraduate and graduate students.',
-      'Led lab sessions on data analysis, predictive modeling, and machine learning algorithms; graded projects and provided constructive feedback.',
-      'Contributed to a research project on natural language processing, focusing on sentiment analysis of social media data.',
-      'Developed supplementary course materials, including Jupyter notebooks and coding examples for advanced data science techniques.',
-    ],
-  },
-  {
     id: '3',
     companyName: 'University of Arizona Health Sciences',
     jobTitle: 'Student AI Developer',
@@ -170,4 +140,3 @@ export const blogPosts: BlogPost[] = [
     readingTime: '5 min read'
   },
 ];
-
