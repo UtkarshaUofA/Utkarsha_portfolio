@@ -7,6 +7,8 @@
     --background: 145 70% 96%; /* Very light green tint */
     --foreground: 240 10% 3.9%; /* Default dark text */
 
+    --header-background: 145 65% 92%; /* Slightly darker green for light theme header */
+
     --card: 0 0% 100%; /* White cards */
     --card-foreground: 240 10% 3.9%;
 
@@ -53,6 +55,8 @@
   .dark {
     --background: 145 15% 8%; /* Very dark green tint for dark mode */
     --foreground: 0 0% 98%;
+
+    --header-background: 145 18% 12%; /* Slightly distinct dark green for dark theme header */
 
     --card: 240 10% 3.9%;
     --card-foreground: 0 0% 98%;
