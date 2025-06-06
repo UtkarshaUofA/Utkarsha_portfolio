@@ -156,7 +156,11 @@ export const education: Education[] = [
       'Published a research paper on the project in IJRAR.',
       'Led technical event organization for the Computer Science department.',
       'Volunteered for NSS, contributing to community service initiatives.',
-      'Coursework: Data Structures & Algorithms, Database Management Systems, Data Mining, Data Analytics',
+      'Coursework:',
+      'Data Structures & Algorithms',
+      'Database Management Systems',
+      'Data Mining',
+      'Data Analytics',
     ],
   },
 ];
