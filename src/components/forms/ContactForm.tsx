@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useEffect } from "react";
@@ -10,7 +11,8 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { submitContactForm, type ContactFormState } from "@/lib/actions/contactActions";
 import { useToast } from "@/hooks/use-toast";
-import { Send, Loader2, AlertCircle, CheckCircle } from 'lucide-react';
+import { Send, Loader2, AlertCircle, CheckCircle, Mail } from 'lucide-react';
+import Link from 'next/link';
 
 function SubmitButton() {
   const { pending } = useFormStatus();
@@ -41,7 +43,14 @@ export function ContactForm() {
     <Card className="w-full max-w-2xl mx-auto shadow-xl">
       <CardHeader>
         <CardTitle className="text-2xl">Get In Touch</CardTitle>
-        <CardDescription>Have a question or want to work together? Fill out the form below.</CardDescription>
+        <CardDescription>
+          Have a question or want to work together? Fill out the form below.
+          <br />
+          Or, you can reach me directly at: 
+          <Link href="mailto:utkarsha.ajay.patil@gmail.com" className="text-primary hover:underline ml-1">
+             utkarsha.ajay.patil@gmail.com
+          </Link>
+        </CardDescription>
       </CardHeader>
       <form action={formAction}>
         <CardContent className="space-y-6">
