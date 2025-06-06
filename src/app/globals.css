@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --background: 240 100% 99%; /* Off-white #F8F8FF */
+    --background: 145 70% 96%; /* Very light green tint */
     --foreground: 240 10% 3.9%; /* Default dark text */
 
     --card: 0 0% 100%; /* White cards */
@@ -51,7 +51,7 @@
   }
 
   .dark {
-    --background: 240 10% 3.9%;
+    --background: 145 15% 8%; /* Very dark green tint for dark mode */
     --foreground: 0 0% 98%;
 
     --card: 240 10% 3.9%;
