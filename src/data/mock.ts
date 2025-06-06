@@ -11,6 +11,7 @@ export const skills: Skill[] = [
   { id: 'pandas', name: 'Pandas', icon: Code },
   { id: 'numpy', name: 'NumPy', icon: Code },
   { id: 'scikit-learn', name: 'Scikit-learn', icon: Zap },
+  { id: 'ab-testing', name: 'A/B Testing', icon: TestTube2 },
   { id: 'jupyter-notebooks', name: 'Jupyter Notebooks', icon: Edit3 },
   { id: 'git', name: 'Git', icon: GitBranch },
   { id: 'data-analysis', name: 'Data Analysis', icon: BarChartBig },
@@ -19,7 +20,6 @@ export const skills: Skill[] = [
   { id: 'predictive-modeling', name: 'Predictive Modeling', icon: Brain },
   { id: 'tableau', name: 'Tableau', icon: Presentation },
   { id: 'problem-solving', name: 'Problem Solving', icon: Search },
-  { id: 'ab-testing', name: 'A/B Testing', icon: TestTube2 },
   { id: 'jira', name: 'JIRA', icon: ListChecks },
 ];
 
@@ -160,3 +160,4 @@ export const education: Education[] = [
     ],
   },
 ];
+
