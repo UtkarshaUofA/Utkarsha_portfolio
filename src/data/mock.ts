@@ -76,7 +76,7 @@ export const experiences: Experience[] = [
     id: '1',
     companyName: 'Capgemini',
     jobTitle: 'Associate Consultant',
-    startDate: 'Dec 2021',
+    startDate: 'Nov 2019',
     endDate: 'Jul 2023',
     logoUrl: 'https://placehold.co/100x100.png',
     logoHint: 'capgemini logo',
