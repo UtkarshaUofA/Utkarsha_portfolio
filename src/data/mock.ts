@@ -95,8 +95,8 @@ export const experiences: Experience[] = [
     jobTitle: 'Data Analyst Intern',
     startDate: 'Sep 2024',
     endDate: 'Dec 2024',
-    logoUrl: 'https://placehold.co/100x100.png',
-    logoHint: 'health network logo',
+    logoUrl: '/theforceforhealth_logo.jpg',
+    logoHint: 'the force for health logo',
     summary: [
       'Automated six customer email campaigns tailored to diverse subscription plans, reducing manual workload by 60% and improving segmentation accuracy.',
       'Managed data ingestion and preprocessing for 40 U.S. counties and urban/rural areas in India using Python and Excel, ensuring data accuracy for visualization through 2 Tableau dashboards.',
@@ -157,3 +157,4 @@ export const blogPosts: BlogPost[] = [
     readingTime: '5 min read'
   },
 ];
+
