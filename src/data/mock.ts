@@ -119,6 +119,20 @@ export const experiences: Experience[] = [
       'Utilized Python (Programming Language), EDA, and other data science skills in AI projects.'
     ],
   },
+  {
+    id: '4',
+    companyName: 'The Force for Health® Network',
+    jobTitle: 'Data Analyst Intern',
+    startDate: 'Sep 2024',
+    endDate: 'Dec 2024',
+    logoUrl: 'https://placehold.co/100x100.png',
+    logoHint: 'health network logo',
+    summary: [
+      'Automated six customer email campaigns tailored to diverse subscription plans, reducing manual workload by 60% and improving segmentation accuracy.',
+      'Managed data ingestion and preprocessing for 40 U.S. counties and urban/rural areas in India using Python and Excel, ensuring data accuracy for visualization through 2 Tableau dashboards.',
+      'Collaborated with three cross-functional teams during weekly sprint planning, execution, and updates to report progress and address challenges, contributing to a 90% sprint completion rate and reducing project delays by 20%.'
+    ],
+  },
 ];
 
 export const blogPosts: BlogPost[] = [
