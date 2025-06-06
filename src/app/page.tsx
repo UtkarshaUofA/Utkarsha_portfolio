@@ -48,7 +48,7 @@ export default function AboutMePage() {
         <section className="md:col-span-1">
           <PageTitle title="My Skills" className="mb-6 md:mb-8" />
           <Card className="shadow-lg h-full">
-            <CardContent className="p-4">
+            <CardContent className="px-4 pt-4 pb-2">
               <div className="grid grid-cols-2 gap-3">
                 {skills.map((skill) => (
                   <div key={skill.id} className="flex flex-col items-center text-center p-2 bg-card hover:shadow-md transition-shadow rounded-lg border">
