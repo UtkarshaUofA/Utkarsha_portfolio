@@ -131,8 +131,10 @@ export const education: Education[] = [
     logoUrl: '/uarizona_logo.jpg',
     logoHint: 'university arizona logo',
     details: [
-      'Activities and societies: ASTEC, WISE, Arizona Student Unions',
-      'Coursework: Data Mining, Data Visualization, Machine Learning, Applied Natural Language Processing (NLP), Computational Social Science, Database Management, SQL/NoSQL Databases for Data and Information Sciences, Foundations of Data Science, Data Ethics.',
+      'Activities and societies:',
+      'ASTEC, WISE, Arizona Student Unions',
+      'Coursework:',
+      'Data Mining, Data Visualization, Machine Learning, Applied Natural Language Processing (NLP), Computational Social Science, Database Management, SQL/NoSQL Databases for Data and Information Sciences, Foundations of Data Science, Data Ethics.',
       'Key Highlights:',
       'AI Application Developer, ASTEC – Developed AI-driven solutions for healthcare applications, patient simulation, and improved patient form building.',
       'Worked with real-world datasets to identify trends, patterns, and outliers.',
@@ -151,7 +153,8 @@ export const education: Education[] = [
     logoUrl: '/Puneuni.jpg',
     logoHint: 'savitribai phule pune university logo',
     details: [
-      'Activities and societies: NSS (National Service Scheme), ISTE (Indian Society for Technical Education)',
+      'Activities and societies:',
+      'NSS (National Service Scheme), ISTE (Indian Society for Technical Education)',
       'Worked on YouTube Video Analysis & Recommendation System, implementing sentiment analysis and improving recommendation relevance.',
       'Published a research paper on the project in IJRAR.',
       'Led technical event organization for the Computer Science department.',
