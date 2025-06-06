@@ -44,15 +44,15 @@ export default function AboutMePage() {
         </div>
       </div>
 
-      <div className="mt-16 md:mt-24 grid md:grid-cols-2 gap-8 lg:gap-12">
-        <section>
+      <div className="mt-16 md:mt-24 grid md:grid-cols-3 gap-8 lg:gap-12">
+        <section className="md:col-span-1">
           <PageTitle title="My Skills" className="mb-6 md:mb-8" />
           <Card className="shadow-lg h-full">
-            <CardContent className="p-6">
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+            <CardContent className="p-4">
+              <div className="grid grid-cols-2 gap-3">
                 {skills.map((skill) => (
-                  <div key={skill.id} className="flex flex-col items-center text-center p-3 bg-card hover:shadow-md transition-shadow rounded-lg border">
-                    {skill.icon && <skill.icon className="h-8 w-8 mb-2 text-primary" />}
+                  <div key={skill.id} className="flex flex-col items-center text-center p-2 bg-card hover:shadow-md transition-shadow rounded-lg border">
+                    {skill.icon && <skill.icon className="h-6 w-6 mb-2 text-primary" />}
                     <p className="font-semibold text-sm mb-1">{skill.name}</p>
                   </div>
                 ))}
@@ -61,7 +61,7 @@ export default function AboutMePage() {
           </Card>
         </section>
 
-        <section>
+        <section className="md:col-span-2">
           <PageTitle title="Education" icon={<GraduationCap size={36} strokeWidth={1.5}/>} className="mb-6 md:mb-8" />
           <div className="space-y-6">
             {education.map((edu) => (
