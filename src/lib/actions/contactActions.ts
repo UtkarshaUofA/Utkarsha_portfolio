@@ -34,26 +34,26 @@ export async function submitContactForm(
     };
   }
 
-  // Log to console (as before)
+  // Log to console
   console.log("Contact form submitted:");
   console.log("Name:", parsed.data.name);
   console.log("Email:", parsed.data.email);
   console.log("Message:", parsed.data.message);
 
-  // Save to a text file
+  // Save to a text file in the public folder
   const submissionText = `Timestamp: ${new Date().toISOString()}\nName: ${parsed.data.name}\nEmail: ${parsed.data.email}\nMessage: ${parsed.data.message}\n--------------------------\n\n`;
-  const filePath = path.join(process.cwd(), 'contact_submissions.txt');
+  const filePath = path.join(process.cwd(), 'public', 'contact_submissions.txt');
 
   try {
     await fs.appendFile(filePath, submissionText, 'utf8');
     console.log('Contact form submission saved to file:', filePath);
   } catch (error) {
     console.error('Failed to save contact form submission to file:', error);
-    // Optionally, you could modify the response to the user if file saving is critical
-    // For now, we'll still return a success message to the user as per the original behavior.
+    // Optionally, you could modify the response to the user if file saving is critical.
+    // For now, we'll still return a success message to the user.
     // return {
     //   message: "Your message was received, but there was an issue saving it. Please contact support.",
-    //   success: false, // Or true, depending on how critical file saving is
+    //   success: false, 
     // };
   }
 
