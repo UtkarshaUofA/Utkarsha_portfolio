@@ -38,7 +38,8 @@ export function EducationItem({ education }: EducationItemProps) {
               const isSpecialHeader =
                 detail.startsWith('Activities and societies:') ||
                 detail.startsWith('Coursework:') ||
-                detail.startsWith('Key Highlights:');
+                detail.startsWith('Key Highlights:') ||
+                detail.startsWith('Skills:');
 
               if (isSpecialHeader) {
                 return (
@@ -60,3 +61,4 @@ export function EducationItem({ education }: EducationItemProps) {
     </Card>
   );
 }
+
