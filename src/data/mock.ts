@@ -57,6 +57,17 @@ export const projects: Project[] = [
     repoUrl: 'https://github.com/UtkarshaUofA/Analyzing-Crime-Trends-and-the-Correlation-with-the-Unemployment-Rate-in-Tucson',
     tags: ['Data Management', 'System Design', 'Database', 'Software Development'],
     date: 'May 2024'
+  },
+  {
+    id: '7',
+    title: 'YouTube Video Recommendation Based On User Comments And Its Statistical Analysis',
+    description: 'To minimize the issue of irrelevant recommendation, we are proposing the YouTube recommendation system based network of user comments and their sentiment analysis.',
+    longDescription: 'This project proposes a YouTube recommendation system that leverages user comments and their sentiment analysis to provide more relevant video suggestions. The core idea is to build a network from user comments, analyze the sentiment expressed, and use this information to improve the quality of recommendations, moving beyond traditional metrics that might lead to irrelevant suggestions.',
+    imageUrl: '/YouTube.png',
+    imageHint: 'youtube logo comments',
+    repoUrl: 'https://github.com/UtkarshaUofA/YouTube-Recommendation',
+    tags: ['Recommendation System', 'NLP', 'Sentiment Analysis', 'Python', 'Statistics'],
+    date: 'May 2019'
   }
 ];
 
