@@ -1,6 +1,6 @@
 
 import type { Project, Experience, Skill, Education } from '@/lib/types';
-import { Code, Database, GitBranch, Zap, BarChartBig, TrendingUp, Search, Presentation, Edit3, Users, FileSpreadsheet, ListChecks, Brain, GraduationCap } from 'lucide-react';
+import { Code, Database, GitBranch, Zap, BarChartBig, TrendingUp, Search, Presentation, Edit3, Users, FileSpreadsheet, ListChecks, Brain, GraduationCap, TestTube2 } from 'lucide-react';
 
 export const skills: Skill[] = [
   { id: 'python', name: 'Python', icon: Code },
@@ -19,7 +19,7 @@ export const skills: Skill[] = [
   { id: 'predictive-modeling', name: 'Predictive Modeling', icon: Brain },
   { id: 'tableau', name: 'Tableau', icon: Presentation },
   { id: 'problem-solving', name: 'Problem Solving', icon: Search },
-  { id: 'communication', name: 'Communication', icon: Users },
+  { id: 'ab-testing', name: 'A/B Testing', icon: TestTube2 },
   { id: 'jira', name: 'JIRA', icon: ListChecks },
 ];
 
