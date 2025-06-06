@@ -102,6 +102,23 @@ export const experiences: Experience[] = [
       'Developed supplementary course materials, including Jupyter notebooks and coding examples for advanced data science techniques.',
     ],
   },
+  {
+    id: '3',
+    companyName: 'University of Arizona Health Sciences',
+    jobTitle: 'Student AI Developer',
+    startDate: 'Jan 2025',
+    endDate: 'May 2025',
+    logoUrl: 'https://placehold.co/100x100.png',
+    logoHint: 'health sciences logo',
+    summary: [
+      'Analyzed cross-team requirements to optimize AI-driven form-building and 3D patient simulation, improving efficiency by 35% through Python scripting and API integrations.',
+      'Developed and monitored key performance metrics for AI-based patient simulations, ensuring data accuracy and usability for healthcare applications.',
+      'Refined chatbot interactions by analyzing user behavior, improving session management, and optimizing data storage to enhance engagement and retention.',
+      'Conducted exploratory data analysis (EDA) on chatbot logs, identifying patterns and insights to improve user experience and error handling.',
+      'Presented weekly data-driven progress reports to 25+ stakeholders, ensuring alignment, transparency, and actionable insights for continuous improvements.',
+      'Utilized Python (Programming Language), EDA, and other data science skills in AI projects.'
+    ],
+  },
 ];
 
 export const blogPosts: BlogPost[] = [
@@ -139,3 +156,4 @@ export const blogPosts: BlogPost[] = [
     readingTime: '5 min read'
   },
 ];
+
