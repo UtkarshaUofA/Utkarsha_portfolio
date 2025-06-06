@@ -42,14 +42,4 @@ export interface Education {
   details?: string[];
 }
 
-export interface BlogPost {
-  id: string;
-  title: string;
-  excerpt: string;
-  imageUrl: string;
-  imageHint: string;
-  url: string;
-  date: string;
-  author?: string;
-  readingTime?: string;
-}
+// BlogPost type removed as per user request
