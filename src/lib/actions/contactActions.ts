@@ -1,6 +1,9 @@
+
 "use server";
 
 import { z } from 'zod';
+import fs from 'fs/promises';
+import path from 'path';
 
 const contactFormSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
@@ -31,12 +34,28 @@ export async function submitContactForm(
     };
   }
 
-  // In a real application, you would send an email or save to a database here.
-  // For this example, we'll just log it to the console.
+  // Log to console (as before)
   console.log("Contact form submitted:");
   console.log("Name:", parsed.data.name);
   console.log("Email:", parsed.data.email);
   console.log("Message:", parsed.data.message);
+
+  // Save to a text file
+  const submissionText = `Timestamp: ${new Date().toISOString()}\nName: ${parsed.data.name}\nEmail: ${parsed.data.email}\nMessage: ${parsed.data.message}\n--------------------------\n\n`;
+  const filePath = path.join(process.cwd(), 'contact_submissions.txt');
+
+  try {
+    await fs.appendFile(filePath, submissionText, 'utf8');
+    console.log('Contact form submission saved to file:', filePath);
+  } catch (error) {
+    console.error('Failed to save contact form submission to file:', error);
+    // Optionally, you could modify the response to the user if file saving is critical
+    // For now, we'll still return a success message to the user as per the original behavior.
+    // return {
+    //   message: "Your message was received, but there was an issue saving it. Please contact support.",
+    //   success: false, // Or true, depending on how critical file saving is
+    // };
+  }
 
   return {
     message: "Thank you for your message! I'll get back to you soon.",
