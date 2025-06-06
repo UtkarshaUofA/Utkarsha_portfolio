@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { skills, education } from '@/data/mock';
 import Link from 'next/link';
-import { Download, ArrowRight, GraduationCap } from 'lucide-react';
+import { Download, ArrowRight, GraduationCap, Brain } from 'lucide-react';
 import { EducationItem } from '@/components/shared/EducationItem';
 
 export default function AboutMePage() {
@@ -46,7 +46,7 @@ export default function AboutMePage() {
 
       <div className="mt-16 md:mt-24 grid md:grid-cols-3 gap-8 lg:gap-12">
         <section className="md:col-span-1">
-          <PageTitle title="My Skills" className="mb-6 md:mb-8" />
+          <PageTitle title="My Skills" icon={<Brain size={36} strokeWidth={1.5}/>} className="mb-6 md:mb-8" />
           <Card className="shadow-lg h-full">
             <CardContent className="px-4 pt-4 pb-2">
               <div className="grid grid-cols-2 gap-3">
