@@ -5,7 +5,7 @@
 @layer base {
   :root {
     --background: 145 70% 96%; /* Very light green tint */
-    --foreground: 240 10% 3.9%; /* Default dark text */
+    --foreground: 240 10% 3.0%; /* Default dark text - made slightly darker */
 
     --header-background: 145 65% 92%; /* Slightly darker green for light theme header */
 
