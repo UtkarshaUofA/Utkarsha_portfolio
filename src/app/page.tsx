@@ -45,7 +45,7 @@ export default function AboutMePage() {
       </div>
 
       <div className="mt-16 md:mt-24 grid md:grid-cols-3 gap-8 lg:gap-12">
-        <section className="md:col-span-1">
+        <section className="md:col-span-2">
           <PageTitle title="Education" icon={<GraduationCap size={36} strokeWidth={1.5}/>} className="mb-6 md:mb-8" />
           <div className="space-y-6">
             {education.map((edu) => (
@@ -54,7 +54,7 @@ export default function AboutMePage() {
           </div>
         </section>
 
-        <section className="md:col-span-2">
+        <section className="md:col-span-1">
           <PageTitle title="Skills" icon={<Brain size={36} strokeWidth={1.5}/>} className="mb-6 md:mb-8" />
           <Card className="shadow-lg h-full">
             <CardContent className="px-4 pt-4 pb-2">
