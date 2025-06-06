@@ -109,7 +109,7 @@ export const experiences: Experience[] = [
     jobTitle: 'Associate Consultant',
     startDate: 'Nov 2019',
     endDate: 'Jul 2023',
-    logoUrl: 'https://placehold.co/100x100.png',
+    logoUrl: '/capgemini_logo.jpg',
     logoHint: 'capgemini logo',
     summary: [
       'Developed and optimized complex SQL queries to extract, clean, and analyze large datasets, improving accuracy in reporting and streamlining data retrieval processes.',
