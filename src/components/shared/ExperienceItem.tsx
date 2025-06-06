@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import type { Experience } from '@/lib/types';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
@@ -31,7 +32,7 @@ export function ExperienceItem({ experience }: ExperienceItemProps) {
         </div>
       </CardHeader>
       <CardContent>
-        <ul className="list-disc list-inside space-y-2 text-muted-foreground">
+        <ul className="list-disc list-outside space-y-2 text-muted-foreground text-sm pl-5">
           {experience.summary.map((point, index) => (
             <li key={index}>{point}</li>
           ))}
