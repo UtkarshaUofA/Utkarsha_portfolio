@@ -132,7 +132,9 @@ export const education: Education[] = [
     logoHint: 'university arizona logo',
     details: [
       'Activities and societies:',
-      'ASTEC, WISE, Arizona Student Unions',
+      'ASTEC',
+      'WISE',
+      'Arizona Student Unions',
       'Coursework:',
       'Data Mining',
       'Data Visualization',
@@ -162,7 +164,8 @@ export const education: Education[] = [
     logoHint: 'savitribai phule pune university logo',
     details: [
       'Activities and societies:',
-      'NSS (National Service Scheme), ISTE (Indian Society for Technical Education)',
+      'NSS (National Service Scheme)',
+      'ISTE (Indian Society for Technical Education)',
       'Coursework:',
       'Data Structures & Algorithms',
       'Database Management Systems',
