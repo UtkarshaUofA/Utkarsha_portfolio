@@ -31,3 +31,13 @@ export interface Skill {
   icon?: LucideIcon;
   level?: 'Beginner' | 'Intermediate' | 'Advanced' | 'Expert';
 }
+
+export interface Education {
+  id: string;
+  institution: string;
+  degree: string;
+  graduationDate: string;
+  logoUrl?: string;
+  logoHint?: string;
+  details?: string[];
+}

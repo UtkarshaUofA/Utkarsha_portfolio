@@ -1,12 +1,14 @@
+
 import Image from 'next/image';
 import { Container } from '@/components/layout/Container';
 import { PageTitle } from '@/components/shared/PageTitle';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { skills } from '@/data/mock';
+import { skills, education } from '@/data/mock';
 import Link from 'next/link';
-import { Download, ArrowRight } from 'lucide-react';
+import { Download, ArrowRight, GraduationCap } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
+import { EducationItem } from '@/components/shared/EducationItem';
 
 export default function AboutMePage() {
   return (
@@ -52,12 +54,20 @@ export default function AboutMePage() {
                 <div key={skill.id} className="flex flex-col items-center text-center p-4 bg-card hover:shadow-md transition-shadow rounded-lg border">
                   {skill.icon && <skill.icon className="h-10 w-10 mb-3 text-primary" />}
                   <p className="font-semibold text-sm mb-1">{skill.name}</p>
-                  {/* Skill level Badge removed */}
                 </div>
               ))}
             </div>
           </CardContent>
         </Card>
+      </section>
+
+      <section className="mt-16 md:mt-24">
+        <PageTitle title="Education" icon={<GraduationCap size={48} strokeWidth={1.5}/>} />
+        <div className="max-w-3xl mx-auto space-y-8">
+          {education.map((edu) => (
+            <EducationItem key={edu.id} education={edu} />
+          ))}
+        </div>
       </section>
     </Container>
   );

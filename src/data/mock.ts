@@ -1,6 +1,6 @@
 
-import type { Project, Experience, Skill } from '@/lib/types';
-import { Code, Database, GitBranch, Zap, BarChartBig, TrendingUp, Search, Presentation, Edit3, Users, FileSpreadsheet, ListChecks, Brain } from 'lucide-react';
+import type { Project, Experience, Skill, Education } from '@/lib/types';
+import { Code, Database, GitBranch, Zap, BarChartBig, TrendingUp, Search, Presentation, Edit3, Users, FileSpreadsheet, ListChecks, Brain, GraduationCap } from 'lucide-react';
 
 export const skills: Skill[] = [
   { id: 'python', name: 'Python', icon: Code },
@@ -118,6 +118,32 @@ export const experiences: Experience[] = [
       'Conducted 3+ A/B tests for email campaigns, delivering data-driven insights to optimize user engagement strategies.',
       'Performed ad hoc and deep-dive analytics, resulting in a 7% improvement in key product KPIs through actionable insights.',
       'Partnered with business and finance teams to align data reporting, contributing to a standardized analytics framework.'
+    ],
+  },
+];
+
+export const education: Education[] = [
+  {
+    id: '1',
+    institution: 'University of Arizona',
+    degree: 'Master of Science in Data Science',
+    graduationDate: 'May 2025',
+    logoUrl: '/uarizona_logo.jpg',
+    logoHint: 'university arizona logo',
+    details: [
+      'Relevant Coursework: Machine Learning, Statistical Learning, Data Mining, Big Data Analytics, Deep Learning.',
+      'GPA: 3.9/4.0',
+    ],
+  },
+  {
+    id: '2',
+    institution: 'Savitribai Phule Pune University',
+    degree: 'Bachelor of Engineering in Computer Engineering',
+    graduationDate: 'May 2019',
+    logoUrl: 'https://placehold.co/60x60.png',
+    logoHint: 'university logo',
+    details: [
+      'Relevant Coursework: Data Structures & Algorithms, Database Management Systems, Operating Systems, Computer Networks.',
     ],
   },
 ];
