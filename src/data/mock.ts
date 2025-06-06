@@ -78,8 +78,8 @@ export const experiences: Experience[] = [
     jobTitle: 'Student AI Developer',
     startDate: 'Jan 2025',
     endDate: 'May 2025',
-    logoUrl: 'https://placehold.co/100x100.png',
-    logoHint: 'health sciences logo',
+    logoUrl: '/uarizona_logo.jpg',
+    logoHint: 'university arizona logo',
     summary: [
       'Analyzed cross-team requirements to optimize AI-driven form-building and 3D patient simulation, improving efficiency by 35% through Python scripting and API integrations.',
       'Developed and monitored key performance metrics for AI-based patient simulations, ensuring data accuracy and usability for healthcare applications.',
