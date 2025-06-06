@@ -45,7 +45,7 @@ export async function submitContactForm(
   // try {
   //   const { getFirestore } = await import('firebase-admin/firestore'); // Or your Firebase client SDK setup
   //   const db = getFirestore(); // Ensure Firebase Admin is initialized elsewhere
-  //   await db.collection('contactSubmissions').add({
+  //   await db.collection('Utkarsha_submissions').add({ // << UPDATED COLLECTION NAME HERE
   //     name: parsed.data.name,
   //     email: parsed.data.email,
   //     message: parsed.data.message,
@@ -65,3 +65,4 @@ export async function submitContactForm(
     success: true,
   };
 }
+
